@@ -6,14 +6,11 @@ dpda {
 		coord {179 164}
 	}
 	state {
-		coord {296 164}
-	}
-	state {
-		coord {408 164}
+		coord {301 164}
 	}
 	state {
 		final {yes}
-		coord {502 160}
+		coord {408 164}
 	}
 	edge 0 0 {
 		transits {a}
@@ -24,20 +21,16 @@ dpda {
 		transits {b}
 		offset {0.5235987755982988}
 		stacktop {a}
-	}
-	edge 1 2 {
-		transits {b}
-		offset {0.5235987755982988}
-		stacktop {a}
 		action {pop}
 	}
-	edge 2 3 {
+	edge 1 2 {
 		transits {*c}
 		offset {0.5235987755982988}
 	}
-	edge 2 1 {
+	edge 1 1 {
 		transits {b}
-		offset {0.5235987755982988}
+		offset {1.6142472221864275}
 		stacktop {a}
+		action {pop}
 	}
 }
