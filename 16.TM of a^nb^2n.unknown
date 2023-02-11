@@ -86,4 +86,19 @@ turing {
 		offset {0.5235987755982988}
 		direction {L}
 	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {277 324}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {274 312}
+	}
+	label {
+		text {Halt}
+		font {SansSerif 12 -}
+		coord {270 313}
+	}
 }
