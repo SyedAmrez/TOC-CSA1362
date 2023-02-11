@@ -81,4 +81,9 @@ turing {
 		direction {R}
 		output {_}
 	}
+	label {
+		text {Halt}
+		font {SansSerif 12 -}
+		coord {95 248}
+	}
 }
