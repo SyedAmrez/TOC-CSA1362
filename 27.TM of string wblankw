@@ -54,4 +54,9 @@ turing {
 		direction {R}
 		output {c}
 	}
+	label {
+		text {Halt}
+		font {SansSerif 12 -}
+		coord {166 208}
+	}
 }
